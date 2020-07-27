@@ -19,5 +19,5 @@ import myapp1
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('myapp1/',include("myapp1.urls"))
+    path('myapp1',include('myapp1.urls')),
 ]
